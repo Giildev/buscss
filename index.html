@@ -9,7 +9,30 @@
 </head>
 
 <body>
-  <h1>Hit!</h1>
+  <header>
+    <div class="logo__position">
+      <img src="/img/nodejs.png" alt="Logo" class="logo">
+    </div>
+    <div class="title__position">
+      <div class="title">
+        CCS Route Project
+      </div>
+    </div>
+  </header>
+  <div class="contaier">
+    <div class="dropdown__position">
+      <select class="dropdown" id="route">
+        <option value="buscss">BusCCS</option>
+      </select>
+    </div>
+  </div>
+
+
+
+  <div id="map"></div>
+  <script src="map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZx-VLYmVylpKpDdb7pDyg1T2vLm5L1Gs&callback=initMap" async
+    defer></script>
 </body>
 
 </html>

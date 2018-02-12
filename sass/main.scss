@@ -1,3 +1,55 @@
+#map {
+  margin: auto;
+  height: 50%;
+  width: 50%
+}
+
+*{
+  font-family: 'Roboto';
+}
+
 body {
-  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  height: 100px;
+  background-color: rgb(88, 0, 160);
+}
+
+.logo{
+  height: 35px;
+  width: 35px;
+  
+  &__position{
+    display: inline-block;
+    margin: 0 25px 0 25px;
+    padding: 25px 0 25px;
+  }
+}
+
+.title{
+  color: white;
+  font-size: 24px;
+
+  &__position {
+    display: inline-block;
+  }
+}
+
+.container{
+  padding: 5px;
+}
+
+.dropdown{
+
+  width: 400px;
+  transform: translateX(-50%);
+  // border: 0px;
+
+  &__position{
+    padding: 40px 0;
+    margin: auto 50%;
+  }
 }
